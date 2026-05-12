@@ -2,6 +2,8 @@
 
 > 🚀 **Your AI-powered career co-pilot** — Upload your resume, discover skill gaps, get personalized 12-week learning roadmaps, track job applications, and chat with an AI career advisor — all powered by cutting-edge LLMs and real-time job market data.
 
+**🔗 Live App:** [https://ai-career-autopilot.vercel.app](https://ai-career-autopilot.vercel.app)
+
 ---
 
 ## ✨ Features at a Glance
