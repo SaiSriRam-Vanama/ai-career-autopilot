@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { jobsApi } from '@/lib/api/jobs';
+import { careerApi } from '@/lib/api/career';
 import { Job } from '@/types';
 import JobCard from '@/components/jobs/JobCard';
 import JobFilters from '@/components/jobs/JobFilters';
