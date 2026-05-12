@@ -1,0 +1,19 @@
+1. JSearch API(skills, salary, location):
+   - URL: https://jsearch.p.rapidapi.com
+   - Header: x-rapidapi-key (get from RapidAPI)
+
+2. Coursera API (Courses + Skills):
+   - URL: https://api.coursera.org/api/courses.v1
+
+3. Groq API (AI Model for Autopilot):
+   - URL: https://api.groq.com/openai/v1
+   - Get API key from: https://console.groq.com
+
+4. Hugging Face (Resume Parsing, NLP):
+   - Get token from: https://huggingface.co/settings/tokens
+
+5. DeepSeek (optional AI):
+   - Get API key from: https://platform.deepseek.com
+
+6. Adzuna API:
+   - Get app_id and api_key from: https://developer.adzuna.com
