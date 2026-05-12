@@ -98,10 +98,7 @@ async def get_my_resume(current_user: dict = Depends(get_current_user)):
         resume = await get_user_resume(user_id)
         
         if not resume:
-            raise HTTPException(
-                status_code=status.HTTP_404_NOT_FOUND,
-                detail="Resume not found. Please upload your resume first."
-            )
+            return None
         
         # Convert ObjectId to string for JSON serialization
         resume["_id"] = str(resume["_id"])

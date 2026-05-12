@@ -98,7 +98,7 @@ async def get_my_roadmap(current_user: dict = Depends(get_current_user)):
         career_path = await career_service.get_user_career_path(user_id)
         
         if not career_path:
-            raise HTTPException(status_code=404, detail="No roadmap found")
+            return None
             
         # Convert ObjectId to string and map to id
         if "_id" in career_path:

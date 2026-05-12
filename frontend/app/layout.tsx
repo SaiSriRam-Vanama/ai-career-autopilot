@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   title: "AI Career Autopilot - Personalized Career Guidance",
   description: "AI-powered career guidance engine with personalized roadmaps, skill gap analysis, and intelligent course recommendations",
   keywords: ["career guidance", "AI", "roadmap", "skills", "jobs", "courses"],
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
