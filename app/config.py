@@ -49,6 +49,9 @@ class Settings(BaseSettings):
 
     # Google OAuth
     GOOGLE_CLIENT_ID: Optional[str] = None
+
+    # Frontend URL (for CORS)
+    FRONTEND_URL: str = "http://localhost:3000"
     
     class Config:
         env_file = ".env"
