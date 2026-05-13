@@ -261,10 +261,8 @@ locust -f locustfile.py
 
 | Platform | Backend | Frontend | Database |
 |----------|---------|----------|----------|
-| 🖥️ **Single VPS** (DigitalOcean, AWS EC2) | Docker on port 8000 | Docker on port 3000 | MongoDB Atlas |
-| 🚂 **Railway / Render** | FastAPI + Gunicorn | Static build / Docker | MongoDB Atlas |
-| ▲ **Vercel + Cloud Run** | Google Cloud Run | Vercel | MongoDB Atlas |
-| ☸️ **Kubernetes** | Docker pod | Docker pod | MongoDB Atlas |
+| 🚂 **Render** | FastAPI (Docker) | — | MongoDB Atlas |
+| ▲ **Vercel** | — | Next.js | MongoDB Atlas |
 
 ### ✅ Production Checklist
 
